@@ -1,0 +1,53 @@
+.card{
+    padding: 24px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: max-content;
+    width: 14rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 0px 30px 0px;
+}
+
+.img{
+    width: 75%;
+    margin-bottom: 20px;
+    float: right;
+    height: 9rem;
+    object-fit: contain;
+}
+.number{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #9e9e9e;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5rem;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1.5px;
+    font-family: cursive;
+}
+
+.chipContainer{
+    display: flex;
+    row-gap: 8px;
+    column-gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.chip{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    color: #6e6e6e;
+    font-family: math;
+}
