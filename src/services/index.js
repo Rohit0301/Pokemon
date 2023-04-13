@@ -26,6 +26,7 @@ export const fetchPokemonDetails = async ({ pokemon_name }) => {
 };
 
 export const fetchPokemonEvolution = async({pokemon_name}) => {
+  const client = useApolloClient();
   const { data } = await client.query({
     query: gql`
       ${FETCH_POKEMON_EVOLUTIONS}

@@ -38,6 +38,7 @@ export default function EvolutionModal() {
         style={{ display: open ? "block" : "none" }}
       >
         <div className={styles.modal_content} id='modal_content'>
+          <h3 onClick={handleClose} className={styles.closeBtn}>X</h3>
           <h3 className={styles.head}>
             <span className={styles.head_name}>{pokemon_name}</span> Evolutions
           </h3>
@@ -54,6 +55,7 @@ export default function EvolutionModal() {
                 />
               ))}
           </div>
+       
         </div>
       </div>
     </>
